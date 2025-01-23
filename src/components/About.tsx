@@ -20,7 +20,7 @@ const About = ({ personalInfo }: AboutProps) => {
               {personalInfo.about}
             </p>
             <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-              I'm always eager to learn new technologies and tackle challenging problems.
+            I&apos;m always eager to learn new technologies and tackle challenging problems.
               My approach combines technical expertise with a strong focus on delivering
               user-friendly solutions that drive business value.
             </p>

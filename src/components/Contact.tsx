@@ -21,7 +21,10 @@ const Contact = ({ personalInfo }: ContactProps) => {
       
       setSubmitStatus('success')
       setFormData({ name: '', email: '', message: '' })
-    } catch (error) {
+
+    }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars 
+    catch (error) {
       setSubmitStatus('error')
     } finally {
       setIsSubmitting(false)
